@@ -1,5 +1,4 @@
 from graphics import *
-from time import sleep
 
 def calcLJForce(r, s, e):
 	return 48 * e * ( ((pow(s,12))/(pow(r,13))) - 0.5 * (pow(s,6)/pow(r,7)) )
